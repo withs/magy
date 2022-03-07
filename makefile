@@ -2,10 +2,10 @@ doc:
 	v doc -f html -o . -inline-assets -m .
 
 prod:
-	v -prod -shared -autofree .
+	v -prod -shared -autofree magy.v
 
 build:
-	v -cg -shared -autofree .
+	v -cg -shared -autofree magy.v
 
 test:
 	v test .
