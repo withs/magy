@@ -1,0 +1,32 @@
+Magy
+====
+
+Description
+-----------
+
+    Magy is a small lib which contains some utilities to beautify your console app
+
+Features
+--------
+
+    - Customizable timed loading animation
+    - Customizable counter
+    - log prefixes
+    - counted prefixes
+
+Docs
+----
+
+    ->  https://withs.github.io/magy/
+
+Build & Use
+-----------
+
+    1. git clone https://github.com/withs/magy
+    2. make prod
+
+Contribute
+----------
+
+    Feel free to open an issue to report a bug / any suggestions or
+    make pull requests.
