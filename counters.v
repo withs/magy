@@ -54,7 +54,7 @@ fn (s Counter) build_counter() {
 
 [inline]
 pub fn (mut s Counter) end() {
-	if s.cnt == s.max {
+	if s.cnt >= s.max {
 		if s.delete_line_at_end {
 			clean_line()
 		} else {
@@ -79,6 +79,5 @@ pub fn (mut s Counter) step_with_msg(content string) {
 
 pub fn (mut s Counter) step() {
 	s.build_counter()
-
 	s.end()
 }
