@@ -22,8 +22,7 @@ Docs
 Build & Use
 -----------
 
-    1. git clone https://github.com/withs/magy
-    2. make prod
+    1. v install --git https://github.com/withs/magy
 
 Contribute
 ----------
